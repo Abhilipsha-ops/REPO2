@@ -6,3 +6,13 @@ if age > 18:
 else:
    print("not eligible")
 
+char = input("enter a char:")
+if char.isalpha():
+    if char in "aeiouAEIOU":
+        print("vowel")
+    else:
+        print("consonant")
+else:
+    print("not an alpha")            
+    
+
